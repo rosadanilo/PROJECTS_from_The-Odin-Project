@@ -1,0 +1,11 @@
+# Forçar detecção de HTML e CSS
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+
+# Ignorar outras extensões na contagem
+*.md linguist-documentation# Inclui todos os arquivos na contagem
+* linguist-detectable=true
+
+*.png linguist-vendored
+*.jpg linguist-vendored
+*.pdf linguist-vendored
